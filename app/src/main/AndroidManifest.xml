@@ -1,5 +1,5 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-          package="com.hishatech.android.tiphelp">
+          package="com.HishaTech.android.TipHelp">
 
     <application
         android:allowBackup="true"
@@ -7,7 +7,7 @@
         android:icon="@mipmap/ic_launcher">
 
         <activity
-            android:name=".TipHelpActivity"
+            android:name="com.HishaTech.android.TipHelp.TipHelpActivity"
             android:label="@string/app_name"
             android:windowSoftInputMode="stateHidden"
             android:screenOrientation="portrait">
@@ -17,13 +17,13 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".preferenceActivity"
+            android:name="com.HishaTech.android.TipHelp.preferenceActivity"
             android:label="@string/app_name"
             android:windowSoftInputMode="stateHidden"
             android:screenOrientation="portrait">
         </activity>
         <activity
-            android:name=".AboutActivity"
+            android:name="com.HishaTech.android.TipHelp.AboutActivity"
             android:label="@string/app_name"
             android:windowSoftInputMode="stateHidden"
             android:screenOrientation="portrait">

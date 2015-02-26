@@ -1,4 +1,4 @@
-package com.hishatech.android.tiphelp;
+package com.HishaTech.android.TipHelp;
 
 import android.app.Activity;
 import android.os.Bundle;

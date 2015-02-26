@@ -1,4 +1,5 @@
-package com.hishatech.android.tiphelp;
+package com.HishaTech.android.TipHelp;
+
 import java.text.DecimalFormat;
 import android.app.Activity;
 import android.content.Intent;
