@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <PreferenceCategory
+        android:key="default_values"
+        android:title="Default Values" >
+
+        <ListPreference
+            android:defaultValue="15"
+            android:entries="@array/TipPercent"
+            android:entryValues="@array/TipPercentValues"
+            android:key="default_percent"
+            android:summary="@string/DefaultTipPercentSummary"
+            android:title="@string/DefaultTipPercentTitle" />
+
+        <ListPreference
+            android:defaultValue="1"
+            android:entries="@array/GroupSize"
+            android:entryValues="@array/GroupSizeValues"
+            android:key="default_groupsize"
+            android:summary="@string/DefaultGroupSizeSummary"
+            android:title="@string/DefaultGroupSizeTitle" />
+
+    </PreferenceCategory>
+
+</PreferenceScreen>
